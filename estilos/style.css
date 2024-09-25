@@ -2,4 +2,44 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0;
+    color: rgb(34,34,34);
+
+    margin: 0px auto;
+    padding: 0px 15px;
+
+    max-width: 1200px;
+}
+
+header > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header > div > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+h1 {
+    line-height: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+img.company {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
 }
